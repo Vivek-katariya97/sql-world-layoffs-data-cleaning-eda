@@ -1,21 +1,32 @@
-# World Layoffs - SQL EDA & Data Cleaning Project
+# World Layoffs – SQL Data Cleaning & EDA
 
-This project explores global tech layoffs using SQL. The data was cleaned and analyzed using standard SQL queries to identify trends in company layoffs, industries affected, and time-based patterns.
+This project analyzes global tech layoffs using SQL, covering the full workflow from raw data cleaning to exploratory data analysis. It highlights which industries and companies were most affected, how layoffs evolved over time, and where major workforce reductions occurred.
 
-## 📌 What's Covered
+## 📌 Key Features
 
-- Data cleaning (nulls, duplicates)
-- Aggregations and groupings
-- Time-based summaries (monthly/yearly)
-- Window functions and CTEs
-- Business insights from the layoff data
+- SQL-based data cleaning (handling duplicates, nulls, inconsistent formats)
+- Standardization of industry, country, and date fields
+- Exploratory analysis on:
+  - Layoffs by company, industry, and country
+  - Monthly & yearly layoff trends
+  - Funding stage vs. layoffs
+- Use of window functions, CTEs, aggregations, and time-series queries
 
-## 🛠️ Tech Used
+## 🛠️ Technologies
 
-- SQL (MySQL-compatible)
-- GitHub for version control and documentation
+- MySQL (SQL)
+- GitHub for version control
 
-## 📊 Insights (optional)
-- Startups were among the hardest hit
-- Peak layoff periods clustered around 2022 Q4
-- Some heavily funded companies laid off 100% of staff
+## 📁 Project Structure
+
+sql/
+├─ 01_data_cleaning.sql
+└─ 02_eda.sql
+
+
+## 📊 Insights
+
+- Startups and growth-stage companies were highly impacted  
+- Layoffs peaked around **Q4 2022**  
+- Some companies with large funding rounds still laid off **100%** of staff  
+
